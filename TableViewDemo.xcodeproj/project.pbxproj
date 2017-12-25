@@ -20,6 +20,7 @@
 		CE42C9571FF0A30900711F25 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE42C9561FF0A30900711F25 /* ViewController.xib */; };
 		CE9D481F1FF0C09D0091EE6E /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D481E1FF0C09D0091EE6E /* LeftViewController.swift */; };
 		CE9D48211FF0C0EF0091EE6E /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9D48201FF0C0EF0091EE6E /* LeftViewController.xib */; };
+		CE9D48231FF0D7E10091EE6E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE9D48221FF0D7E10091EE6E /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CE42C9561FF0A30900711F25 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		CE9D481E1FF0C09D0091EE6E /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		CE9D48201FF0C0EF0091EE6E /* LeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		CE9D48221FF0D7E10091EE6E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		CE42C9211FF09AB000711F25 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE9D48221FF0D7E10091EE6E /* Podfile */,
 				CE42C9221FF09AB000711F25 /* AppDelegate.swift */,
 				CE42C9241FF09AB000711F25 /* ViewController.swift */,
 				CE42C9561FF0A30900711F25 /* ViewController.xib */,
@@ -282,6 +285,7 @@
 				CE42C92D1FF09AB000711F25 /* LaunchScreen.storyboard in Resources */,
 				CE42C9551FF0A23100711F25 /* tableViewCell.xib in Resources */,
 				CE42C92A1FF09AB000711F25 /* Assets.xcassets in Resources */,
+				CE9D48231FF0D7E10091EE6E /* Podfile in Resources */,
 				CE42C9281FF09AB000711F25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
