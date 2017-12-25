@@ -9,6 +9,7 @@
 import UIKit
 import SlideMenuController
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        print("Home -"+NSHomeDirectory())
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
@@ -28,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         
         let mainVC = ViewController()
-        let leftVC = ViewController()
+        let leftVC = LeftViewController()
         let mainVCNavC = UINavigationController(rootViewController: mainVC)
         
         let slideMenuController = SlideMenuController(

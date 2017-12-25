@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9DA9473D8513EE2F70330BED /* Pods_TableViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F7EE3832603AD418FF131E /* Pods_TableViewDemo.framework */; };
+		CE268C691FF0E65D005DF2FC /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE268C681FF0E65D005DF2FC /* AppDataManager.swift */; };
 		CE42C9231FF09AB000711F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42C9221FF09AB000711F25 /* AppDelegate.swift */; };
 		CE42C9251FF09AB000711F25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42C9241FF09AB000711F25 /* ViewController.swift */; };
 		CE42C9281FF09AB000711F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE42C9261FF09AB000711F25 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		CE9D481F1FF0C09D0091EE6E /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D481E1FF0C09D0091EE6E /* LeftViewController.swift */; };
 		CE9D48211FF0C0EF0091EE6E /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9D48201FF0C0EF0091EE6E /* LeftViewController.xib */; };
 		CE9D48231FF0D7E10091EE6E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE9D48221FF0D7E10091EE6E /* Podfile */; };
+		CE9D482B1FF0DA000091EE6E /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D48291FF0D9FF0091EE6E /* AppData.m */; };
+		CE9D482E1FF0DC3E0091EE6E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D482D1FF0DC3E0091EE6E /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		023ABC225C1AFCFA75DCDEA8 /* Pods-TableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		865CF7E6C4E03D7AF83055C0 /* Pods-TableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A5F7EE3832603AD418FF131E /* Pods_TableViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE268C681FF0E65D005DF2FC /* AppDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
 		CE42C91F1FF09AB000711F25 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE42C9221FF09AB000711F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE42C9241FF09AB000711F25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,10 @@
 		CE9D481E1FF0C09D0091EE6E /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		CE9D48201FF0C0EF0091EE6E /* LeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
 		CE9D48221FF0D7E10091EE6E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CE9D48281FF0D9FF0091EE6E /* TableViewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE9D48291FF0D9FF0091EE6E /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		CE9D482A1FF0DA000091EE6E /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		CE9D482D1FF0DC3E0091EE6E /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,8 @@
 		CE42C9211FF09AB000711F25 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE9D482C1FF0DC2E0091EE6E /* Model */,
+				CE9D48241FF0D9A00091EE6E /* App */,
 				CE9D48221FF0D7E10091EE6E /* Podfile */,
 				CE42C9221FF09AB000711F25 /* AppDelegate.swift */,
 				CE42C9241FF09AB000711F25 /* ViewController.swift */,
@@ -165,6 +175,25 @@
 				CE42C9441FF09AB000711F25 /* Info.plist */,
 			);
 			path = TableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE9D48241FF0D9A00091EE6E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D482A1FF0DA000091EE6E /* AppData.h */,
+				CE9D48291FF0D9FF0091EE6E /* AppData.m */,
+				CE9D48281FF0D9FF0091EE6E /* TableViewDemo-Bridging-Header.h */,
+				CE268C681FF0E65D005DF2FC /* AppDataManager.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE9D482C1FF0DC2E0091EE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D482D1FF0DC3E0091EE6E /* City.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,23 +262,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Wilson;
 				TargetAttributes = {
 					CE42C91E1FF09AB000711F25 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9CMD5ZNVSE;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					CE42C9321FF09AB000711F25 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9CMD5ZNVSE;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE42C91E1FF09AB000711F25;
 					};
 					CE42C93D1FF09AB000711F25 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9CMD5ZNVSE;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE42C91E1FF09AB000711F25;
 					};
@@ -366,9 +398,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE42C9251FF09AB000711F25 /* ViewController.swift in Sources */,
+				CE268C691FF0E65D005DF2FC /* AppDataManager.swift in Sources */,
 				CE9D481F1FF0C09D0091EE6E /* LeftViewController.swift in Sources */,
+				CE9D482E1FF0DC3E0091EE6E /* City.swift in Sources */,
 				CE42C9531FF0A08600711F25 /* UITableView-Extension.swift in Sources */,
 				CE42C9231FF09AB000711F25 /* AppDelegate.swift in Sources */,
+				CE9D482B1FF0DA000091EE6E /* AppData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +468,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -441,7 +478,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -484,7 +525,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -492,7 +535,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -523,12 +570,15 @@
 			baseConfigurationReference = 865CF7E6C4E03D7AF83055C0 /* Pods-TableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sexyfather88.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TableViewDemo/App/TableViewDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -538,12 +588,14 @@
 			baseConfigurationReference = 023ABC225C1AFCFA75DCDEA8 /* Pods-TableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
 				INFOPLIST_FILE = TableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sexyfather88.TableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TableViewDemo/App/TableViewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -558,7 +610,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sexyfather88.TableViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewDemo.app/TableViewDemo";
 			};
 			name = Debug;
@@ -573,7 +626,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sexyfather88.TableViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewDemo.app/TableViewDemo";
 			};
 			name = Release;
@@ -587,7 +641,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sexyfather88.TableViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TableViewDemo;
 			};
 			name = Debug;
@@ -601,7 +656,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sexyfather88.TableViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TableViewDemo;
 			};
 			name = Release;

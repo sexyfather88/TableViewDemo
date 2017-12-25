@@ -17,14 +17,4 @@ extension UITableView {
         
         print("asd")
     }
-
-    
-    
-    //
-//    func cropToCircleWithBorderColor(color: UIColor, lineWidth: CGFloat) -> UIImage {
-//        
-//        // code to create the cropped circle with colored border
-//        
-//        return newImage
-//    }
 }

@@ -6,4 +6,12 @@
 //  Copyright © 2017年 Wilson. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class LeftViewController: UIViewController
+{
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}
